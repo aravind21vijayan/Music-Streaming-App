@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Your Library</h2>
+    <div>
+        {% for i in show %}
+        <img src="{{ i.poster }}">
+        <h4>Name : {{ i.name}}</h4>
+        <p>Songs : {{ i.songs }}</p>
+    
+        <br><hr>
+        <br>
+        
+        {% endfor %}
+    </div>
+</body>
+</html>

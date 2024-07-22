@@ -1,0 +1,15 @@
+id,name,genre,artist,release_date,poster
+1,This Moment,Jazz-fusion,Shakti,2023-11-17,https://www.angrymetalguy.com/wp-content/uploads/2010/07/cover.jpg
+2,Lunch Break,Hip-hop,Seedhe Maut,2023-08-12,https://example.com/seedhe-maut-lunch-break.jpg
+3,Akela,Indie pop,Ankur Tewari,2023-06-03,https://example.com/ankur-tewari-akela.jpg
+4,Only Just Begun,Pop,Armaan Malik,2023-05-19,https://example.com/armaan-malik-only-just-begun.jpg
+5,New Life,Rock,King,2023-04-21,https://example.com/king-new-life.jpg
+6,Animal,Bollywood,Various Artists,2023-12-22,https://example.com/animal-ost.jpg
+7,Leo,Tamil soundtrack,Anirudh Ravichander,2023-10-19,https://example.com/leo-ost.jpg
+8,KGF Chapter 2,Kannada soundtrack,Ravi Basrur,2023-04-14,https://example.com/kgf2-ost.jpg
+9,Adipurush,Telugu soundtrack,Ajay-Atul,2023-12-15,https://example.com/adipurush-ost.jpg
+10,Antim: The Final Truth,Bollywood,Vishal-Shekhar,2022-11-25,https://example.com/antim-ost.jpg
+11,Bhediya,Bollywood,Sachin-Jigar,2022-11-18,https://example.com/bhediya-ost.jpg
+12,Vikram,Tamil soundtrack,Anirudh Ravichander,2022-05-31,https://example.com/vikram-ost.jpg
+13,Pushpa: The Rise - Part 1,Telugu soundtrack,Devi Sri Prasad,2021-12-17,https://example.com/pushpa-ost.jpg
+14,Sarkaru Vaari Paata,Telugu soundtrack,S. Thaman,2022-05-12,https://example.com/sarkaru-vaari-paata-ost.jpg

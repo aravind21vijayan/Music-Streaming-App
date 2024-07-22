@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator</title>
+</head>
+<body>
+    <h1>CREATOR's PAGE</h1><br><hr><br>
+    <h1>Add Song</h1>
+    <form name="add" action="/creator" method="POST" enctype="multipart/form-data">
+        <input type="text" value="add_song"  name='formType' hidden>
+        
+        <label for="id">Enter ID:</label>
+        <input type="number" name="id" placeholder="Enter id" required>
+        <br><br>
+        
+        <label for="name">Enter Name:</label>
+        <input type="text" name="name" placeholder="Enter name" required>
+        <br><br>
+
+        <label for="genre">Enter Genre:</label>
+        <input type="text" name="genre" placeholder="Enter genre" required>
+        <br><br>
+
+        <label for="artist">Enter Artist:</label>
+        <input type="text" name="artist" placeholder="Enter artist name" >
+        <br><br>
+
+        <label for="lyrics">Enter Lyrics:</label>
+        <textarea name="lyrics" placeholder="Enter lyrics" ></textarea>
+        <br><br>
+
+        <label for="audio">Upload Audio:</label>
+        <input type="file" name="audio" >
+        <br><br>
+
+        <label for="rating">Enter Rating :</label>
+        <input type="number" name="rating" placeholder="rating" min="1" max="10" step="0.1" >
+        <br><br>
+
+        <label for="duration">Enter Duration:</label>
+        <input type="text" name="duration" placeholder="Enter duration (e.g., 3:15)" >
+        <br><br>
+
+        <label for="release_date">Enter Release Date:</label>
+        <input type="text" name="release_date">
+        <br><br>
+
+        <label for="poster">Upload Poster:</label>
+        <input type="text" name="poster"  >
+        <br><br>
+
+        <label for="album_id">Enter Album ID:</label>
+        <input type="number" name="album_id" placeholder="Enter album ID" >
+        <br><br>
+
+        
+        <input type="submit" value="submit" >
+    </form> 
+    
+    <br>
+    <hr>
+    <br>
+    
+    <h1>Add Album</h1>
+    <form name="add" action="/creator" method="POST">
+        <input type="text" value="add_album"  name='formType' hidden>
+        
+        <label for="id">Enter ID:</label>
+        <input type="number" name="id" placeholder="Enter id" required>
+        <br><br>
+        
+        <label for="name">Enter Name:</label>
+        <input type="text" name="name" placeholder="Enter name" required>
+        <br><br>
+
+        <label for="genre">Enter Genre:</label>
+        <input type="text" name="genre" placeholder="Enter genre" required>
+        <br><br>
+
+        <label for="artist">Enter Artist:</label>
+        <input type="text" name="artist" placeholder="Enter artist name" >
+        <br><br>
+
+
+        <label for="release_date">Enter Release Date:</label>
+        <input type="text" name="release_date">
+        <br><br>
+
+        <label for="poster">Upload Poster:</label>
+        <input type="text" name="poster"  >
+        <br><br>
+        
+        <input type="submit" value="submit" >
+    </form> 
+    
+    <br>
+    <hr>
+    <br>
+    
+    
+    <h1>Delete Songs</h1>
+     <form name="delete" action="/creator" method="POST" >
+        <input type="text" value="delete_song" name='formType' hidden>
+    
+        <label for="song_name">Enter song name: :</label>
+        <input type="text" name="song_name" placeholder="song title" required>
+        <br><br>
+    
+        <input type="submit" value="submit" >
+    </form>
+    <br>
+    <hr>
+    <br>
+    
+    
+    <h1>Delete ALBUMS</h1>
+     <form name="delete" action="/creator" method="POST" >
+        <input type="text" value="delete_album" name='formType' hidden>
+    
+        <label for="album_name">Enter album name: :</label>
+        <input type="text" name="album_name" placeholder="album title" required>
+        <br><br>
+    
+        <input type="submit" value="submit" >
+    </form>
+
+
+
+
+
+
+</body>
+</html>

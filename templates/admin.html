@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <h1>Admin</h1>
+    <h3>Total number of Users: {{count_user}} </h3>
+    <h3>Total number of Creators: {{count_creator}} </h3>
+    <h3>Total number of Albums: {{count_album}} </h3>
+    <h3>Total number of Songs: {{count_song}} </h3>
+    <hr>
+    <h1>Delete Songs</h1>
+     <form name="delete" action="/admin" method="POST" >
+        <input type="text" value="delete_song" name='formType' hidden>
+    
+        <label for="song_name">Enter song name: :</label>
+        <input type="text" name="song_name" placeholder="song title" required>
+        <br><br>
+    
+        <input type="submit" value="submit" >
+    </form>
+    <br>
+    <hr>
+    <br>
+    <h1>Delete ALBUMS</h1>
+     <form name="delete" action="/admin" method="POST" >
+        <input type="text" value="delete_album" name='formType' hidden>
+    
+        <label for="album_name">Enter album name: :</label>
+        <input type="text" name="album_name" placeholder="album title" required>
+        <br><br>
+    
+        <input type="submit" value="submit" >
+    </form>
+</body>
+</html>

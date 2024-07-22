@@ -1,0 +1,14 @@
+id,name,genre,artist,lyrics,audio_file,duration,release_date,rating,poster,album_id
+1,Dil Bechara,Pop-Rock,Arijit Singh,NA,https://example.com/dil-bechara.mp3,5:11,2020-07-10,4.8,https://i.imgur.com/jYQ347Y.jpg,6
+2,Humnava Mere,Romantic Pop,Jubin Nautiyal,NA,https://example.com/humnava-mere.mp3,4:12,2022-11-25,4.5,https://i.imgur.com/205432Q.jpg,10
+3,Kesariya Tera Pyaar Hai,Sufi Rock,Arijit Singh,NA,https://example.com/kesariya-tera-pyaar-hai.mp3,4:07,2022-11-18,4.2,https://i.imgur.com/4321QWP.jpg,11
+4,Naatu Naatu,Folk Fusion,Rahul Sipligunj & Nakash Aziz,NA,https://example.com/naatu-naatu.mp3,5:20,2022-05-31,4.9,https://i.imgur.com/lKJH456.jpg,12
+5,Oo Antava Oo Oo,Folk Fusion,Shreya Ghoshal & Samantha Ruth Prabhu,NA,https://example.com/oo-antava-oo-oo.mp3,4:35,2021-12-17,4.3,https://i.imgur.com/9876543.jpg,13
+6,Kalaavathi,Melodic Folk,Ram Charan & Chinmayi Sripada,NA,https://example.com/kalaavathi.mp3,4:21,2022-05-12,4.7,https://i.imgur.com/12QWP098.jpg,14
+7,Ranjha,Pop-Rock,Amit Trivedi & Nikhita Gandhi,NA,https://example.com/ranjha-animal.mp3,4:42,2023-12-22,4.0,https://example.com/animal-ost.jpg,6
+8,Jungle Mein Jungle Hai,Rock,Amit Trivedi & Vishal Dadlani,NA,https://example.com/jungle-mein-jungle-hai.mp3,3:55,2023-12-22,3.8,https://example.com/animal-ost.jpg,6
+9,The Choice,Melodic Rock,Anirudh Ravichander,NA,https://example.com/the-choice-leo.mp3,4:18,2023-10-19,4.6,https://example.com/leo-ost.jpg,7
+10,Raangi,Romantic Pop,Anirudh Ravichander & Jonita Gandhi,NA,https://example.com/raangi-leo.mp3,4:02,2023-10-19,4.2,https://example.com/leo-ost.jpg,7
+11,Sulthan,Rock,Ravi Basrur,NA,https://example.com/sulthan-kgf2.mp3,3:50,2023-04-14,4.4,https://example.com/kgf2-ost.jpg,8
+12,Mehbooba,Soulful Rock,Ravi Basrur & Sinduri Vishal,NA,https://example.com/mehbooba-kgf2.mp3,4:23,2023-04-14,4.1,https://example.com/kgf2-ost.jpg,8
+13,Jai Jai Raama,Devotional,Ajay-Atul & Hema Chandra,NA,https://example.com/jai-jai-raama-adipurush.mp3,4:28,2023-12-1,8

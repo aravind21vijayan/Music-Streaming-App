@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest</title>
+    <style>
+        img{
+            height:250px;
+            width:250px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Top Trending Mashup's</h2>
+    <div>
+        {% for i in show %}
+        <img src="{{ i.poster }}">
+        <h4>Name : {{ i.name}}</h4>
+        <p>Artist : {{ i.artist }}</p>
+        <p>Genre : {{i.genre}} </p>
+        <p>Release Date : {{i.release_date}} </p>
+        <br><hr>
+        <br>
+        
+        {% endfor %}
+    </div>
+</body>
+</html>
